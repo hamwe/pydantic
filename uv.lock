@@ -2107,7 +2107,6 @@ all = [
     { name = "ruff" },
     { name = "sqlalchemy" },
     { name = "time-machine", marker = "platform_python_implementation != 'PyPy'" },
-    { name = "tomli" },
     { name = "twine" },
 ]
 build = [
@@ -2148,7 +2147,6 @@ docs = [
     { name = "pydantic-settings" },
     { name = "pyupgrade" },
     { name = "requests" },
-    { name = "tomli" },
 ]
 docs-upload = [
     { name = "algoliasearch" },
@@ -2233,7 +2231,6 @@ all = [
     { name = "ruff" },
     { name = "sqlalchemy" },
     { name = "time-machine", marker = "platform_python_implementation != 'PyPy'" },
-    { name = "tomli" },
     { name = "twine" },
 ]
 build = [
@@ -2272,7 +2269,6 @@ docs = [
     { name = "pydantic-settings" },
     { name = "pyupgrade" },
     { name = "requests" },
-    { name = "tomli" },
 ]
 docs-upload = [
     { name = "algoliasearch", specifier = ">=4.12.0" },
